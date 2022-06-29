@@ -10,15 +10,23 @@
   <body>
     <div class="container"> 
       <div class="title">會員金額累計小工具</div>
-      <form> 
-        <input class="phone" type="tel" name="phone" placeholder="    請輸入電話號碼">
-        <input class="money" type="number" name="money" placeholder="     請輸入本次購買金額">
+      <form id="form">
+        <input class="phone" type="tel" name="phone" placeholder="請輸入電話號碼">
+        <input class="money" type="number" name="money" placeholder="請輸入本次購買金額">
         <div class="btn">
-          <input type="button" value="查詢" onclick="serch()">
-          <input type="button" value="註冊會員" onclick="addsuccess()">
+          <input id="serch" type="submit" value="查詢">
+          <input id="regist" type="submit" value="註冊會員">
         </div>
       </form>
+      <div class="hint">貼心小提示
+        <ol>
+          <li>此為測試版</li>
+          <li>為輸入電話號碼及金額會跳出警訊</li>
+          <li>滿$3000即可成為會員</li>
+          <li>會員註冊成功會跳出提示，查詢則會顯示訊息</li>
+        </ol>
+      </div>
     </div>
   </body>
-  <script src="./index.js"> </script>
+  <script src="./index.dev.js"> </script>
 </html>
