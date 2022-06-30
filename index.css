@@ -57,7 +57,7 @@ form .btn {
   justify-content: space-between;
 }
 form .btn input {
-  width: 153px;
+  width: 100px;
   height: 30px;
   background-color: #ECB390;
   border-radius: 30px;
